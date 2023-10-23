@@ -7,6 +7,7 @@ class Historic extends React.Component{
         return (
             <div>
                 <Navbar></Navbar>
+                <h1>Histórico</h1>
             </div>
         );
     }

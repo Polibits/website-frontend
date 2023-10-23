@@ -2,15 +2,15 @@ import React from 'react';
 
 import Navbar from '../components/navbar';
 
-class Practice extends React.Component{
+class Competitions extends React.Component{
     render(){
         return (
             <div>
                 <Navbar></Navbar>
-                <h1>Pratique!</h1>
+                <h1>Competições</h1>
             </div>
         );
     }
 }
 
-export default Practice;
+export default Competitions;

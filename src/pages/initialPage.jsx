@@ -7,6 +7,7 @@ class InitialPage extends React.Component{
         return (
             <div>
                 <Navbar></Navbar>
+                <h1>Página Inicial</h1>
             </div>
         );
     }

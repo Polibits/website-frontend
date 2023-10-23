@@ -7,6 +7,7 @@ class AboutUs extends React.Component{
         return (
             <div>
                 <Navbar></Navbar>
+                <h1>Sobre Nós</h1>
             </div>
         );
     }
