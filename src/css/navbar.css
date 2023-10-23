@@ -1,0 +1,23 @@
+.navbar-container {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--light-blue);
+    box-shadow: 0px 5px 20px -20px var(--black);
+}
+
+/* estilo padrão do link */
+.navbar-container a {
+    display: block;
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* estilo do link com mouse sobrevoando */
+.navbar-container a:hover {
+    font-weight: 600;
+}
+
+/* estilo do link ativado */
+.navbar-container a:hover {
+    color: var(--white);
+}

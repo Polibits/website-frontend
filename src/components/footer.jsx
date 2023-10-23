@@ -9,7 +9,7 @@ class Footer extends React.Component {
                 <div className='footer-container'>
                     <div className='logo-img'>
                     </div>
-                    <div class="footer-contact">
+                    <div className="footer-contact">
                         <h3>Contato</h3>
                         <p>E-mail: polibits.usp@gmail.com</p>
                     </div>
@@ -41,34 +41,3 @@ class Footer extends React.Component {
 }
 
 export default Footer;
-
-/*
-<footer>
-  <div class="footer-container">
-    <div class="footer-links">
-      <h3>Links Principais</h3>
-      <ul>
-        <li><a href="/">Página Inicial</a></li>
-        <li><a href="/competicoes">Competições</a></li>
-        <li><a href="/pratique">Pratique</a></li>
-        <li><a href="/sobre-nos">Sobre Nós</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-social">
-      <h3>Redes Sociais</h3>
-      <ul>
-        <li><a href="https://www.instagram.com/seuinstagram" target="_blank">Instagram</a></li>
-        <li><a href="https://github.com/seugithub" target="_blank">GitHub</a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=SEUNUMERODEWHATSAPP" target="_blank">WhatsApp</a></li>
-        <li><a href="https://discord.gg/seudiscord" target="_blank">Discord</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="footer-copyright">
-    <p>&copy; 2023 Polibits. Todos os direitos reservados.</p>
-  </div>
-</footer>
-
- */

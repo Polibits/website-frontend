@@ -1,0 +1,22 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --dark-blue: #02182c;
+    --light-blue: #002855;
+
+    --h1-font-size: 2rem;
+    --text-font-size: 1rem;
+}
+
+/* removendo margin e padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo do body */
+body {
+    color: var(--white);
+    font-size: var(--text-font-size);
+    background-color: var(--dark-blue);
+}
