@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 class Historic extends React.Component{
     render(){
@@ -8,6 +9,7 @@ class Historic extends React.Component{
             <div>
                 <Navbar></Navbar>
                 <h1>Histórico</h1>
+                <Footer></Footer>
             </div>
         );
     }
