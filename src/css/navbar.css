@@ -8,8 +8,10 @@
     text-align: center;
 }
 
-.navbar-icon {
+.navbar-container .navbar-icon h1{
+    color: var(--golden);
     width: 20vw;
+    text-decoration-color: var(--golden);
 }
 
 .navbar-links {
@@ -28,7 +30,8 @@
 
 /* estilo padrão do link */
 .navbar-container a {
-    color: var(--white);
+    font-size: 1.1rem;
+    color: var(--golden);
     text-decoration: none;
 }
 
@@ -36,9 +39,5 @@
 .navbar-container a:hover {
     font-weight: 600;
     text-decoration: underline;
-}
-
-/* estilo do link ativado */
-.navbar-container a:hover {
-    color: var(--white);
+    text-decoration-color: var(--golden);
 }

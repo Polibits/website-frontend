@@ -1,9 +1,9 @@
 :root {
     --black: #000000;
     --white: #FFFFFF;
+    --golden: #ffd700;
     --dark-blue: #02182c;
     --light-blue: #002855;
-
     --h1-font-size: 2rem;
     --text-font-size: 1rem;
 }
