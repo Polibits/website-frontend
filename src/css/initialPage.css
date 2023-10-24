@@ -1,0 +1,13 @@
+.page-content {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: block;
+}
+
+.page-content .logo-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
