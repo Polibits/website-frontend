@@ -1,13 +1,33 @@
 .navbar-container {
+    display: flex;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     background-color: var(--light-blue);
     box-shadow: 0px 5px 20px -20px var(--black);
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-icon {
+    width: 20vw;
+}
+
+.navbar-links {
+    width: 80vw;
+    display: flex;
+}
+
+.navbar-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-container li {
+    width: 20vw;
 }
 
 /* estilo padrão do link */
 .navbar-container a {
-    display: block;
     color: var(--white);
     text-decoration: none;
 }
@@ -15,6 +35,7 @@
 /* estilo do link com mouse sobrevoando */
 .navbar-container a:hover {
     font-weight: 600;
+    text-decoration: underline;
 }
 
 /* estilo do link ativado */

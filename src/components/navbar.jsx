@@ -9,7 +9,9 @@ class Navbar extends React.Component{
         return (
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/'><h1>Polibits</h1></Link>
+                    <div className='navbar-icon'>
+                        <Link to='/'><h1>Polibits</h1></Link>
+                    </div>                
                     <div className='navbar-links'>
                         <ul>
                             <li><Link to='/competicoes'>COMPETIÇÕES</Link></li>
