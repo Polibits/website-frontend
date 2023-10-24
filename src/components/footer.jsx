@@ -12,10 +12,11 @@ class Footer extends React.Component {
                 <div className='footer-container'>
                     <div className='content'>
                         <div className='logo-img'>
-                            <img src={polibitsLogo}></img>
+                            <img alt='logo' src={polibitsLogo}></img>
                         </div>
                         <div className='important-links' id='footer-important-links'>
                             <h3>links úteis</h3>
+                            <hr></hr>
                             <ul>
                                 <li><Link to='/competicoes'>competições</Link></li>
                                 <li><Link to='/pratique'>pratique</Link></li>
@@ -25,6 +26,7 @@ class Footer extends React.Component {
                         </div>
                         <div className='social-media' id='footer-social-media'>
                             <h3>redes sociais</h3>
+                            <hr></hr>
                             <ul>
                                 <li><Link to='https://www.instagram.com/polibits.usp/'>instagram</Link></li>
                                 <li><Link to='https://github.com/Polibits'>github</Link></li>
@@ -33,7 +35,8 @@ class Footer extends React.Component {
                             </ul>
                         </div>
                         <div className="footer-contact" id='footer-contact'>
-                            <h3>contato</h3>
+                            <h3>contate-nos</h3>
+                            <hr></hr>
                             <ul>
                                 <li><p>polibits.usp@gmail.com</p></li>
                             </ul>

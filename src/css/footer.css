@@ -12,6 +12,13 @@
     justify-content: space-between;
 }
 
+.footer-container .content hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 45%;
+    width: 55%;
+}
+
 .footer-container h3 {
     color: var(--golden);
 }
