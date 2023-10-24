@@ -14,19 +14,22 @@
 
 .footer-container .content div {
     display: flex;
-    width: 25vw;
+    width: calc(80vw/3);
     justify-content: center;
 }
 
-.footer-container .content .footer-contact div {
+.footer-container .content #footer-contact {
+    padding-top: 20px;
     display: block;
 }
 
-.footer-container .content .social-media div {
+.footer-container .content #footer-social-media {
+    padding-top: 20px;
     display: block;
 }
 
-.footer-container .content .important-links div {
+.footer-container .content #footer-important-links {
+    padding-top: 20px;
     display: block;
 }
 
@@ -35,7 +38,7 @@ img {
 }
 
 .footer-container .logo-img {
-    width: 15vw;
+    width: 20vw;
     justify-content: center;
 }
 
@@ -49,4 +52,24 @@ img {
     height: 5vh;
     width: 100vw;
     text-align: center;
+}
+
+.footer-container ul {
+    list-style-type: none;
+}
+
+.footer-container li {
+    width: 20vw;
+}
+
+/* estilo padrão do link */
+.footer-container a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* estilo do link com mouse sobrevoando */
+.footer-container a:hover {
+    font-weight: 600;
+    text-decoration-color: var(--golden);
 }

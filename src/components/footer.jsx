@@ -14,11 +14,7 @@ class Footer extends React.Component {
                         <div className='logo-img'>
                             <img src={polibitsLogo}></img>
                         </div>
-                        <div className="footer-contact">
-                            <h3>contato</h3>
-                            <p>E-mail: polibits.usp@gmail.com</p>
-                        </div>
-                        <div className='social-media'>
+                        <div className='social-media' id='footer-social-media'>
                             <h3>redes sociais</h3>
                             <ul>
                                 <li><Link to='https://www.instagram.com/polibits.usp/'>instagram</Link></li>
@@ -27,14 +23,18 @@ class Footer extends React.Component {
                                 <li><Link to='/'>whatsapp</Link></li>
                             </ul>
                         </div>
-                        <div className='important-links'>
+                        <div className='important-links' id='footer-important-links'>
                             <h3>links úteis</h3>
                             <ul>
-                                <li><Link to='/competicoes'></Link>competicoes</li>
-                                <li><Link to='/pratique'></Link>pratique</li>
-                                <li><Link to='/historico'></Link>histórico</li>
-                                <li><Link to='/sobrenos'></Link>sobre nós</li>
+                                <li><Link to='/competicoes'>competições</Link></li>
+                                <li><Link to='/pratique'>pratique</Link></li>
+                                <li><Link to='/historico'>histórico</Link></li>
+                                <li><Link to='/sobrenos'>sobre nós</Link></li>
                             </ul>
+                        </div>
+                        <div className="footer-contact" id='footer-contact'>
+                            <h3>contato</h3>
+                            <p>polibits.usp@gmail.com</p>
                         </div>
                     </div>
                     <div className='copyright'>
