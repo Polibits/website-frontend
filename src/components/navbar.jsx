@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import polibitsLogo from '../assets/logo/LOGOTIPO POLIBITS - FUNDO TRANSPARENTE.png';
-
 import '../css/navbar.css';
 
 class Navbar extends React.Component{
