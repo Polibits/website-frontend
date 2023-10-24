@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+.footer-container h3 {
+    color: var(--golden);
+}
+
 .footer-container .content div {
     display: flex;
     width: calc(80vw/3);
@@ -49,16 +53,20 @@ img {
 }
 
 .footer-container .copyright p {
-    height: 5vh;
+    /* height: 5vh; */
+    padding-bottom: 10px;
     width: 100vw;
+    font-size: 0.8rem;
     text-align: center;
 }
 
 .footer-container ul {
+    margin-top: 5px;
     list-style-type: none;
 }
 
 .footer-container li {
+    margin-bottom: 4px;
     width: 20vw;
 }
 
