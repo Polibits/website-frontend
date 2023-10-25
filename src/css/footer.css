@@ -1,8 +1,8 @@
 .footer-container {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100vw;
-    height: 30vh;
+    height: 32vh;
     background-color: var(--light-blue);
 }
 
@@ -54,14 +54,13 @@ img {
 }
 
 .footer-container .copyright {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     display: flex;
 }
 
 .footer-container .copyright p {
-    /* height: 5vh; */
-    padding-bottom: 10px;
+    height: 2vh;
     width: 100vw;
     font-size: 0.8rem;
     text-align: center;
