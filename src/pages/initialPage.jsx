@@ -34,11 +34,6 @@ class Posts extends React.Component{
         return(
             <div className='posts'>
                 <Post title='ACM-ICPC 2023' textBody='texto aleatório para teste texto aleatório para teste texto aleatório para teste texto aleatório para teste'></Post>
-                <Post title='ACM-ICPC 2023' textBody='texto aleatório para teste texto aleatório para teste texto aleatório para teste texto aleatório para teste'></Post>
-                <Post title='ACM-ICPC 2023' textBody='texto aleatório para teste texto aleatório para teste texto aleatório para teste texto aleatório para teste'></Post>
-                <Post title='ACM-ICPC 2023' textBody='texto aleatório para teste texto aleatório para teste texto aleatório para teste texto aleatório para teste'></Post>
-                <Post title='ACM-ICPC 2023' textBody='texto aleatório para teste texto aleatório para teste texto aleatório para teste texto aleatório para teste'></Post>
-                <Post title='ACM-ICPC 2023' textBody='texto aleatório para teste texto aleatório para teste texto aleatório para teste texto aleatório para teste'></Post>
             </div>
         )
     }
