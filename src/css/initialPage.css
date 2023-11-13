@@ -1,0 +1,10 @@
+.page-content .logo-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-content .logo-div img {
+    height: 70vh;
+    width: auto;
+}
