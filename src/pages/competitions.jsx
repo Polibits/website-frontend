@@ -43,29 +43,35 @@ class ACM_ICPC extends React.Component {
             <div className='acm_icpc'>
                 <h2>ACM-ICPC: International Collegiate Programming Contest</h2>
                 <hr></hr>
-                <p>
-                    A Competição Internacional de Programação Colegial da ACM, ou ACM-ICPC
-                    (International Collegiate Programming Contest), é uma das mais prestigiosas 
-                    competições de programação do mundo. Criada em 1970, a ACM-ICPC é uma competição 
-                    anual que reúne equipes de estudantes universitários de todo o mundo para 
-                    resolver problemas de programação complexos em um ambiente de competição.
-                </p>
-                <div className='main-picture'>
-                    <figure>
-                        <img alt='' src={ACM_ICPC_Logo}></img>
-                        <figcaption>logotipo da ACM-ICPC</figcaption>
-                    </figure>
+                <div className="flex-container">
+                    <div className='text'>
+                        <p>
+                            A Competição Internacional de Programação Colegial da ACM, ou ACM-ICPC
+                            (International Collegiate Programming Contest), é uma das mais prestigiosas 
+                            competições de programação do mundo. Criada em 1970, a ACM-ICPC é uma competição 
+                            anual que reúne equipes de estudantes universitários de todo o mundo para 
+                            resolver problemas de programação complexos em um ambiente de competição.
+                        </p>
+                        <p>
+                            A competição é projetada para testar as habilidades de resolução de problemas, 
+                            algoritmos e programação dos participantes. As equipes, compostas por três estudantes, 
+                            trabalham em conjunto para resolver um conjunto de problemas em um prazo de cinco horas. 
+                            Os problemas variam em dificuldade e abrangem diversas áreas da ciência da computação, 
+                            incluindo algoritmos, matemática, estruturas de dados, teoria dos grafos e engenharia de 
+                            software. As equipes competem em níveis regionais, nacionais e internacionais, com as 
+                            equipes mais bem-sucedidas avançando para as rodadas posteriores. A final mundial da 
+                            ACM-ICPC reúne as equipes vencedoras de todo o mundo para competir em um evento de destaque, 
+                            geralmente hospedado em uma universidade diferente a cada ano.
+                        </p>
+                    </div>
+                    <div className='image'>
+                        <figure>
+                            <img alt='' src={ACM_ICPC_Logo} style={{ display: 'block', margin: '0 auto', width: '75%' }} />
+                        </figure>
+                    </div>
                 </div>
+                <br></br>
                 <p>
-                    A competição é projetada para testar as habilidades de resolução de problemas, 
-                    algoritmos e programação dos participantes. As equipes, compostas por três estudantes, 
-                    trabalham em conjunto para resolver um conjunto de problemas em um prazo de cinco horas. 
-                    Os problemas variam em dificuldade e abrangem diversas áreas da ciência da computação, 
-                    incluindo algoritmos, matemática, estruturas de dados, teoria dos grafos e engenharia de 
-                    software. As equipes competem em níveis regionais, nacionais e internacionais, com as 
-                    equipes mais bem-sucedidas avançando para as rodadas posteriores. A final mundial da 
-                    ACM-ICPC reúne as equipes vencedoras de todo o mundo para competir em um evento de destaque, 
-                    geralmente hospedado em uma universidade diferente a cada ano.
                     Além de testar as habilidades de programação, a ACM-ICPC também promove a colaboração, 
                     o pensamento criativo e a resolução de problemas em equipe. A competição é uma 
                     oportunidade para os estudantes demonstrarem suas habilidades, conhecerem colegas 
@@ -75,10 +81,12 @@ class ACM_ICPC extends React.Component {
                     Ela é altamente respeitada e reconhecida como uma das principais competições 
                     acadêmicas na área de tecnologia da informação.
                 </p>
+                <br></br>
             </div>
         )
     }
 }
+
 
 class OBI extends React.Component {
     render() {
@@ -98,9 +106,9 @@ class OBI extends React.Component {
                 </p>
                 <div className='main-picture'>
                     <figure>
-                        <img alt='' src={OBI_Logo}></img>
-                        <figcaption>logotipo da OBI</figcaption>
+                        <img alt='' src={OBI_Logo} style={{ display: 'block', margin: '0 auto', width: '25%' }}></img>
                     </figure>
+                    <br></br>
                 </div>
                 <p>
                     A OBI não apenas proporciona um ambiente competitivo, mas também ajuda a promover a formação de 
@@ -110,6 +118,7 @@ class OBI extends React.Component {
                     competição é vista como uma porta de entrada para carreiras de sucesso no campo da ciência da 
                     computação, preparando os estudantes para desafios futuros em um mundo cada vez mais digital.
                 </p>
+                <br></br>
             </div>
         )
     }
@@ -130,8 +139,7 @@ class HackerCup extends React.Component {
                 </p>
                 <div className='main-picture'>
                     <figure>
-                        <img alt='' src={HackerCupLogo}></img>
-                        <figcaption>logotipo da HackerCup</figcaption>
+                        <img alt='' src={HackerCupLogo} style={{ display: 'block', margin: '0 auto', width: '25%' }}></img>
                     </figure>
                 </div>
                 <p>
@@ -141,6 +149,7 @@ class HackerCup extends React.Component {
                     competição é um trampolim para que programadores talentosos se destaquem e continuem a contribuir para o 
                     avanço da ciência da computação e da indústria de tecnologia.
                 </p>
+                <br></br>
             </div>
         )
     }
@@ -152,29 +161,34 @@ class CodeJam extends React.Component {
             <div className='codejam'>
                 <h2>Google Code Jam</h2>
                 <hr></hr>
-                <p>
-                    O Google Code Jam é uma das competições de programação mais prestigiosas do mundo, organizada anualmente pelo
-                    Google. A competição atrai participantes de todos os cantos do globo para resolver problemas desafiadores 
-                    em várias rodadas online, culminando em uma rodada final presencial realizada nas instalações do Google. 
-                    Os problemas da Code Jam são conhecidos por sua originalidade e dificuldade, frequentemente envolvendo 
-                    algoritmos avançados, conceitos de matemática avançada e raciocínio lógico criativo.
-                </p>
-                <div className='main-picture'>
-                    <figure>
-                        <img alt='' src={CodeJamLogo}></img>
-                        <figcaption>logotipo da Google Code Jam</figcaption>
-                    </figure>
+                <div className="flex-container">
+                    <div className='text'>
+                        <p>
+                            O Google Code Jam é uma das competições de programação mais prestigiosas do mundo, organizada anualmente pelo
+                            Google. A competição atrai participantes de todos os cantos do globo para resolver problemas desafiadores 
+                            em várias rodadas online, culminando em uma rodada final presencial realizada nas instalações do Google. 
+                            Os problemas da Code Jam são conhecidos por sua originalidade e dificuldade, frequentemente envolvendo 
+                            algoritmos avançados, conceitos de matemática avançada e raciocínio lógico criativo.
+                        </p>
+                        <p>
+                            A Code Jam oferece não apenas prêmios substanciais, mas também a oportunidade de ganhar reconhecimento global 
+                            como um programador habilidoso. Muitos competidores da Code Jam acabam atraindo a atenção de empresas de 
+                            tecnologia de alto nível em busca de talentos excepcionais. Além disso, a competição desempenha um papel 
+                            fundamental na promoção da excelência na ciência da computação e no estímulo de novas gerações de talentos 
+                            para enfrentar desafios tecnológicos complexos e inovadores em todo o mundo.
+                        </p>
+                    </div>
+                    <div className='image'>
+                        <figure>
+                            <img alt='' src={CodeJamLogo} style={{ display: 'block', margin: '0 auto', width: '100%' }} />
+                        </figure>
+                    </div>
                 </div>
-                <p>
-                    A Code Jam oferece não apenas prêmios substanciais, mas também a oportunidade de ganhar reconhecimento global 
-                    como um programador habilidoso. Muitos competidores da Code Jam acabam atraindo a atenção de empresas de 
-                    tecnologia de alto nível em busca de talentos excepcionais. Além disso, a competição desempenha um papel 
-                    fundamental na promoção da excelência na ciência da computação e no estímulo de novas gerações de talentos 
-                    para enfrentar desafios tecnológicos complexos e inovadores em todo o mundo.
-                </p>
+                <br></br>
             </div>
         )
     }
 }
+
 
 export default Competitions;

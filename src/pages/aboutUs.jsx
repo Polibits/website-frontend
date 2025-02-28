@@ -36,6 +36,7 @@ class WhoAreWe extends React.Component{
                         aberto, desafiador e divertido para todos! Dessa forma, treinamos alunos de graduação 
                         para os desafios mais diversos e reunimos talentos em uma oportunidade incrível de aprendizado.
                     </p>
+                    <br></br>
                 </div>
             </section>
         )
@@ -53,6 +54,7 @@ class Team extends React.Component{
                         name='Ana Vitória Abreu Murad' 
                         role='Coordenador'
                         email='anavitoriamurad@usp.br'></TeamMember>
+                        <br></br>
                 </div>
             </section>
         )

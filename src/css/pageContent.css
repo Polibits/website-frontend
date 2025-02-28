@@ -5,3 +5,21 @@
     padding-right: 10vw;
     display: block;
 }
+p {
+    text-align: justify;
+  }
+
+.flex-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.text {
+    flex: 1; /* Permite que o texto ocupe o restante do espaço */
+}
+
+.image {
+    flex-shrink: 0; /* Evita que a imagem encolha */
+}
