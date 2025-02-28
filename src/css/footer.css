@@ -68,7 +68,7 @@ img {
 
 .footer-container ul {
     margin-top: 5px;
-    list-style-type: none;
+    list-style-type: disc;
 }
 
 .footer-container li {
@@ -79,7 +79,7 @@ img {
 /* estilo padrão do link */
 .footer-container a {
     color: var(--white);
-    text-decoration: none;
+    text-decoration: disc;
 }
 
 /* estilo do link com mouse sobrevoando */

@@ -24,8 +24,13 @@ class LearningPlan extends React.Component {
         return (
             <div className='learning-plan'>
                 <h2>Plano de Aprendizado</h2>
-
+                <hr></hr>
+                <p>
+                    O PoliBits é um grupo de programação competitiva da Poli-USP. Nosso objetivo é ensinar e praticar algoritmos e estruturas de dados para competições de maratona de programação.
+                </p>
+                <br></br>
                 <h3>Para quem nunca programou</h3>
+                <hr></hr>
                 <p>
                     Recomendamos começar aprendendo a sintaxe da linguagem C++ por meio de tutoriais no YouTube ou do livro mencionado nos próximos tópicos. Após isso, é ideal praticar no site <a href='https://usaco.guide/bronze' target='_blank' rel='noopener noreferrer'>USACO Guide (nível Bronze)</a>.
                 </p>
@@ -35,8 +40,10 @@ class LearningPlan extends React.Component {
                 <p>
                     Além disso, ler blogs ou assistir vídeos sobre programação competitiva pode ajudar a entender melhor se essa área te interessa.
                 </p>
+                <br></br>
 
                 <h3>Para quem já programou, mas é iniciante</h3>
+                <hr></hr>
                 <p>
                     A melhor forma de melhorar é praticar resolvendo problemas! Para aprender tópicos específicos, recomendamos o 
                     <a href='https://usaco.guide' target='_blank' rel='noopener noreferrer'> USACO Guide</a>. 
@@ -44,11 +51,14 @@ class LearningPlan extends React.Component {
                 <p>
                     Para praticar problemas, utilize a aba <a href='https://codeforces.com/problemset' target='_blank' rel='noopener noreferrer'>Problemset do Codeforces</a> ou gere listas de exercícios aleatórios com o <a href='https://karimelghamry.github.io/Codeforces-Randomizer/' target='_blank' rel='noopener noreferrer'>Codeforces Randomizer</a>.
                 </p>
+                <br></br>
 
                 <h3>⚡ Para quem já é experiente</h3>
+                <hr></hr>
                 <p>
                     Basta comparecer aos nossos encontros e participar dos contests semanais! Além disso, mantenha uma rotina diária de prática resolvendo problemas no <a href='https://codeforces.com/' target='_blank' rel='noopener noreferrer'>Codeforces</a> e analisando problemas de maratonas passadas.
                 </p>
+                <br></br>
             </div>
         );
     }
