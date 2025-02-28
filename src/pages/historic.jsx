@@ -39,7 +39,7 @@ class HistoricSection extends React.Component {
 
                 {/* Workshop Visagio */}
                 <div className='event'>
-                    <img src={workshopVisagio} alt='Workshop de IA Generativa - Visagio' className='event-image' />
+                    <img src={workshopVisagio} alt='Workshop de IA Generativa - Visagio' className='event-image' style={{ display: 'block', margin: '0 auto', width: '50%' }} />
                     <h3>Workshop: IA Generativa Aplicada a Negócios</h3>
                     <p>
                         Em parceria com a Visagio, realizamos um workshop sobre o uso de modelos de linguagem no mercado de consultoria. 
@@ -55,7 +55,7 @@ class HistoricSection extends React.Component {
 
                 {/* Palestra Google */}
                 <div className='event'>
-                    <img src={palestraGoogle} alt='Palestra com AI Engineer da Google' className='event-image' />
+                    <img src={palestraGoogle} alt='Palestra com AI Engineer da Google' className='event-image' style={{ display: 'block', margin: '0 auto', width: '50%' }}/>
                     <h3>Palestra com AI Engineer da Google</h3>
                     <p>
                         Recebemos Alexandre Mafra, AI Engineer na Google São Paulo, que compartilhou sua trajetória profissional não convencional:
@@ -70,7 +70,7 @@ class HistoricSection extends React.Component {
 
                 {/* Bootcamp C++ */}
                 <div className='event'>
-                    <img src={bootcampCpp} alt='Bootcamp de C++ e Algoritmos' className='event-image' />
+                    <img src={bootcampCpp} alt='Bootcamp de C++ e Algoritmos' className='event-image' style={{ display: 'block', margin: '0 auto', width: '50%' }}/>
                     <h3>Bootcamp: Introdução a C++, Algoritmos e Estruturas de Dados</h3>
                     <p>
                         Durante o primeiro semestre de 2024, organizamos um bootcamp intensivo de C++, abordando desde a sintaxe básica até algoritmos e estruturas de dados essenciais.
@@ -83,7 +83,7 @@ class HistoricSection extends React.Component {
 
                 {/* Maratona SBC */}
                 <div className='event'>
-                    <img src={maratonaSBC} alt='Maratona de Programação SBC 2024' className='event-image' />
+                    <img src={maratonaSBC} alt='Maratona de Programação SBC 2024' className='event-image' style={{ display: 'block', margin: '0 auto', width: '50%' }}/>
                     <h3>Maratona de Programação SBC 2024</h3>
                     <p>
                         Com apoio do PCS, levamos cinco equipes da Poli para competir na Maratona de Programação SBC 2024.

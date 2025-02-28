@@ -50,10 +50,9 @@ class Team extends React.Component{
                     <h1>Nossa Equipe</h1>
                     <hr></hr>
                     <TeamMember 
-                        name='Henrique S. Souza' 
+                        name='Ana Vitória Abreu Murad' 
                         role='Coordenador'
-                        email='henrique_eduardo_souza@hotmail.com'
-                        discord='.henriqueeduardo'></TeamMember>
+                        email='anavitoriamurad@usp.br'></TeamMember>
                 </div>
             </section>
         )
@@ -68,7 +67,6 @@ class TeamMember extends React.Component {
                 <div className='member-info'>
                     <li>{this.props.role}: {this.props.name}</li>
                     <li>e-mail: {this.props.email}</li>
-                    <li>discord: {this.props.discord}</li>
                 </div>
             </div>
         )
@@ -83,41 +81,21 @@ class History extends React.Component{
                     <h1>Nossa História</h1>
                     <hr></hr>
                     <p>
-                        O grupo nasceu em 2022, fundado por Henrique S. Souza, estudante de engenharia de computação, a 
-                        partir do desejo de resgatar a cultura de olimpíadas do ensino médio, com competições como a 
-                        Olimpíada Brasileira de Informática (OBI).
+                        O grupo nasceu em 2022, fundado por Henrique S. Souza, estudante de engenharia de computação, a partir do desejo de resgatar a cultura de olimpíadas do ensino médio, com competições como a  Olimpíada Brasileira de Informática (OBI).
                     </p>
-                    <div>
-                        $henrique$
-                    </div>
                     <p>
-                        Naquele mesmo ano, juntamos estudantes interessados e competimos na maratona de programação SBC, parte 
-                        da ACM-ICPC (International Collegiate Programming Contest), e na OBI, com resultados excelentes: 
-                        todos os três times cadastrados obtiveram menções honrosas e altas classificações no ranking da 
-                        ACM-ICPC e boa parte dos inscritos da OBI passaram para as fases seguintes. A participação contou com 
-                        apoio do Departamento de Engenharia de Computação e Sistemas Digitais, da Escola Politécnica, que, 
-                        desde então, apoia nosso grupo.
+                        Naquele mesmo ano, juntamos estudantes interessados e competimos na maratona de programação SBC, parte da ACM-ICPC (International Collegiate Programming Contest), e na OBI, com resultados excelentes: todos os três times cadastrados obtiveram menções honrosas e altas classificações no ranking da ACM-ICPC e boa parte dos inscritos da OBI passaram para as fases seguintes. A participação contou com apoio do Departamento de Engenharia de Computação e Sistemas Digitais, da Escola Politécnica, que, desde então, apoia nosso grupo.
                     </p>
-                    <div>
-                        foto de 2022
-                    </div>
+                    {/*foto de 2022*/}
                     <p>
                         Em 2023, contamos com apoio do MaratonUSP, grupo similar do Instituto de Matemática e Estatística, para 
-                        oferecimento de um Bootcamp especial de programação competitiva, denomidado "Bixecamp 2023", para os calouros 
-                        da Escola Politécnica. Essa experiência rendeu grande engajamento por parte dos alunos, com cerca de 30 participantes 
-                        das aulas e atividades.
+                        oferecimento de um Bootcamp especial de programação competitiva, denomidado "Bixecamp 2023", para os calouros da Escola Politécnica. Essa experiência rendeu grande engajamento por parte dos alunos, com cerca de 30 participantes das aulas e atividades.
                     </p>
-                    <div>
-                        foto bixecamp
-                    </div>
+                    {/*foto bixecamp*/}
                     <p>
-                        Nesse ano, inscrevemos mais de 19 calouros na OBI e quatro times na ACM-ICPC, todos da Escola Politécnica. 
-                        Novamente, alcançamos grandes resultados, com todos os times premiados com menção honrosa na ACM-ICPC e ótimo 
-                        desempenho na OBI.
+                        Nesse ano, inscrevemos mais de 19 calouros na OBI e quatro times na ACM-ICPC, todos da Escola Politécnica. Novamente, alcançamos grandes resultados, com todos os times premiados com menção honrosa na ACM-ICPC e ótimo desempenho na OBI.
                     </p>
-                    <div>
-                        foto de 2023
-                    </div>
+                    {/*foto de 2023*/}
                 </div>
             </section>
         )
