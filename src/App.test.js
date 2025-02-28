@@ -2,8 +2,9 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders the PoliBits navbar title', () => {
+test('renders the PoliBits navbar title', async () => {
   render(<App />);
-  const titleElement = screen.getByText(/Polibits/i);
-  expect(titleElement).toBeInTheDocument();
+  const titleElements = await screen.findAllByText(/Polibits/i);
+  expect(titleElements.length).toBeGreaterThan(0);
 });
+
